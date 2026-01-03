@@ -1,4 +1,3 @@
-
 FROM node:20-bullseye-slim
 
 RUN apt-get update && apt-get install -y \
@@ -64,4 +63,3 @@ async function startBot() {
 }
 
 startBot()
-
