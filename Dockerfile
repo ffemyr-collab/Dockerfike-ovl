@@ -14,7 +14,7 @@ RUN npm install
 CMD ["node", "entry.js"]
 
 
-package.json
+
 
 json
 {
@@ -31,7 +31,7 @@ json
 
 
 
-entry.js
+
 
 js
 import makeWASocket, { useMultiFileAuthState } from "@whiskeysockets/baileys"
