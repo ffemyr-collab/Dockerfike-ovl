@@ -13,11 +13,10 @@ RUN npm install
 
 CMD ["node", "entry.js"]
 
----
 
-*package.json*
+package.json
 
-```json
+json
 {
   "name": "whatsapp-bot",
   "version": "1.0.0",
@@ -28,13 +27,13 @@ CMD ["node", "entry.js"]
     "pino": "^8.0.0"
   }
 }
-```
 
----
 
-*entry.js*
 
-```js
+
+entry.js
+
+js
 import makeWASocket, { useMultiFileAuthState } from "@whiskeysockets/baileys"
 import P from "pino"
 
