@@ -17,7 +17,7 @@ CMD ["node", "entry.js"]
 
 
 
-{
+
   "name": "whatsapp-bot",
   "version": "1.0.0",
   "main": "entry.js",
@@ -25,15 +25,15 @@ CMD ["node", "entry.js"]
   "dependencies": {
     "@whiskeysockets/baileys": "^6.5.0",
     "pino": "^8.0.0"
-  }
-}
+  
 
 
 
 
 
 
-js
+
+
 import makeWASocket, { useMultiFileAuthState } from "@whiskeysockets/baileys"
 import P from "pino"
 
