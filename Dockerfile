@@ -18,7 +18,6 @@ CMD ["node", "entry.js"]
 
 
 
-  "name": "whatsapp-bot",
   "version": "1.0.0",
   "main": "entry.js",
   "type": "module",
