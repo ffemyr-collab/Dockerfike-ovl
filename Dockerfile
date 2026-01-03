@@ -16,7 +16,7 @@ CMD ["node", "entry.js"]
 
 
 
-json
+
 {
   "name": "whatsapp-bot",
   "version": "1.0.0",
